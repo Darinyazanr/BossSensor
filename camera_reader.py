@@ -12,7 +12,7 @@ if __name__ == '__main__':
     model.load()
     while True:
         _, frame = cap.read()
-
+        print("janpan?")
         # グレースケール変換
         frame_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
